@@ -100,6 +100,3 @@ For Part C, I created a project constitution and the first specification and val
 - [Validation 3 – AI Emotional Support Chatbot](validation3.md)
 
 ---
-
-## Submission Note
-This task is submitted through GitHub. The README.md file gives a top-level overview of the task and links to the screenshots and markdown files.
