@@ -35,10 +35,9 @@ Each requirement was documented using several attributes:
 - Dependencies
 
 ### Screenshot
+
 Add your Notion screenshot here:
-
-![Part A – Notion Requirements Table](screenshots/part-a-notion-requirements.png)
-
+![Part A – Notion Requirements Table](notion-requirements-table.png)
 ---
 
 ## Part B – Professional / AI-Based Requirements Tool
