@@ -72,14 +72,25 @@ The custom platform includes:
 5. **Iterations**  
    Planned development cycles for the first product releases.
 
-### Screenshots
-Add your Lovable AI screenshots here:
+## Screenshots
 
-![Part B – Dashboard](screenshots/part-b-dashboard.png)
-![Part B – Requirements Module](screenshots/part-b-requirements.png)
-![Part B – Roadmap](screenshots/part-b-roadmap.png)
-![Part B – Constitution](screenshots/part-b-constitution.png)
-![Part B – Iterations](screenshots/part-b-iterations.png)
+### Part A – Notion Requirements Table
+![Notion](notion-requirements-table.png)
+
+### Part B – Dashboard
+![Dashboard](dashboard.png)
+
+### Part B – Requirements Module
+![Requirements](requirements-manager.png)
+
+### Part B – Roadmap
+![Roadmap](product-roadmap.png)
+
+### Part B – Constitution
+![Constitution](project-constitution.png)
+
+### Part B – Iterations
+![Iterations](iterations-plan.png)
 
 ---
 
