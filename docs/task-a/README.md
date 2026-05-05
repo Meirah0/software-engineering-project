@@ -12,3 +12,13 @@ At first I didn’t know how to store moods, but I used a list and it worked.
 
 ## Run
 python mood_tracker.py
+## Screenshots
+
+### Run
+![Run](../../Screenshot 2026-05-05 200512.png)
+
+### Add Mood
+![Add](../../Screenshot 2026-05-05 200440.png)
+
+### View Mood
+![View](../../Screenshot 2026-05-05 200400.png)
