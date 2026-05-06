@@ -8,38 +8,38 @@ For this task, I applied Domain-Driven Design to my Sukoon project.
 
 I created:
 
-* Event Storming
-* Core Domain Chart
-* Domain Mapping
-* Bounded Context Canvas
+- Event Storming
+- Core Domain Chart
+- Domain Mapping
+- Bounded Context Canvas
 
 ---
 
-## A – Event Storming
+# A – Event Storming
 
 ![Event Storming](./Sukoon_EventStorming.png)
 
 ---
 
-## B – Core Domain Chart
+# B – Core Domain Chart
 
 ![Core Domain Chart](./Sukoon_CoreDomainChart.png)
 
 ---
 
-## C – Domain Mapping
+# C – Domain Mapping
 
 ![Domain Mapping](./Sukoon_DomainMapping.png)
 
 ---
 
-## D – Bounded Context Canvas
+# D – Bounded Context Canvas
 
-![Bounded Context Canvas](./Sukoon_DDD_Workshop.png)
+[Open Bounded Context Canvas](./Sukoon_DDD_Workshop.md)
 
 ---
 
-## My Experience
+# My Experience
 
 This task helped me understand that Sukoon is not one single simple app, but a system with multiple domains.
 
