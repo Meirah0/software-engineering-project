@@ -1,39 +1,41 @@
 # Task 5 – Domain-Driven Design (DDD)
 
 ## Project
+
 Sukoon – Smart Hospital Support Application
 
 For this task, I applied Domain-Driven Design to my Sukoon project.
 
 I created:
-- Event Storming
-- Core Domain Chart
-- Domain Mapping
-- Bounded Context Canvas
+
+* Event Storming
+* Core Domain Chart
+* Domain Mapping
+* Bounded Context Canvas
 
 ---
 
 ## A – Event Storming
 
-![Event Storming](event-storming.png)
+![Event Storming](./Sukoon_EventStorming.png)
 
 ---
 
 ## B – Core Domain Chart
 
-![Core Domain Chart](core-domain-chart.png)
+![Core Domain Chart](./Sukoon_CoreDomainChart.png)
 
 ---
 
 ## C – Domain Mapping
 
-![Domain Mapping](domain-mapping.png)
+![Domain Mapping](./Sukoon_DomainMapping.png)
 
 ---
 
 ## D – Bounded Context Canvas
 
-![Bounded Context Canvas](bounded-context-canvas.png)
+![Bounded Context Canvas](./Sukoon_DDD_Workshop.png)
 
 ---
 
