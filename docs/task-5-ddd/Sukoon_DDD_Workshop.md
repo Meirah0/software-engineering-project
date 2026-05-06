@@ -1,4 +1,4 @@
-# Sukoon – Smart Hospital Support Application
+# Sukoon Smart Hospital Support Application
 ## DDD Workshop (draw.io Ready)
 
 This document is structured for manual recreation in **draw.io**.
@@ -18,7 +18,7 @@ Each part lists the elements, colors, and layout instructions.
 
 ### Elements
 
-**ORANGE — Domain Events**
+**ORANGE  Domain Events**
 - User Registered
 - User Logged In
 - Department Searched
@@ -34,7 +34,7 @@ Each part lists the elements, colors, and layout instructions.
 - Hospital Data Updated
 - Report Generated
 
-**BLUE — Commands**
+**BLUE  Commands**
 - Register User
 - Login User
 - Search Department
@@ -49,7 +49,7 @@ Each part lists the elements, colors, and layout instructions.
 - Update Hospital Data
 - Generate Report
 
-**YELLOW — Actors**
+**YELLOW  Actors**
 - Patient
 - Visitor
 - Admin
@@ -57,7 +57,7 @@ Each part lists the elements, colors, and layout instructions.
 - AI Chatbot
 - Notification Service
 
-**PINK — Domains**
+**PINK  Domains**
 - Authentication
 - Navigation
 - Appointment Management
@@ -232,10 +232,6 @@ Draw one large rectangle divided into 9 sections (3×3 grid):
 +----------------------+----------------------+----------------------+
 ```
 
-Use a light header color (e.g., light blue) on each section title and
-keep the body white — looks clean and manually made.
-
----
 
 ## Suggested Diagram Order to Build in draw.io
 1. Event Storming Diagram (timeline with 4 colored lanes)
