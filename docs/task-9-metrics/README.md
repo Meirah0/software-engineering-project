@@ -5,6 +5,9 @@ Sukoon – Smart Hospital Support Application
 
 For this task, I used software metrics tools to analyze code quality and maintainability.
 
+## Task Description
+The goal of this task was to apply software metrics and code quality analysis techniques to evaluate a Python program. For this task, I analyzed the code using software metrics tools to measure maintainability, complexity, and detect possible coding issues. I used Pylint and Radon, documented the results with screenshots, and reflected on what I learned from the analysis process.
+
 ## Tools Used
 
 ### Pylint
