@@ -3,104 +3,116 @@
 This repository contains all my Software Engineering tasks.
 
 ---
-
 ## Tasks Checklist
 
 ### Task A – Coding Project
-
-✔ Mood Tracker implemented
-[Open Task A](./docs/task-a/README.md)
+✔ Small coding project created  
+[Open Task A](docs/task-a)
 
 ---
 
 ### 1. Git
-
-✔ Repository created
-✔ Commits added
-✔ Version control demonstrated
-[Open Task 1](./docs/task-1-git/README.md)
+✔ Use and understand Git  
+✔ Commits added  
+✔ Version control demonstrated  
+[Open Task 1](docs/task-1-git)
 
 ---
 
 ### 2. Requirements
-
-✔ Requirements created
-✔ Tool used
-✔ AI used
-[Open Task 2](./docs/task-2-requirements/README.md)
+✔ Create 5–10 requirements  
+✔ Use simple tool  
+✔ Use professional/AI tool  
+✔ Constitution / roadmap / tech stack created  
+[Open Task 2](docs/task-2-requirements)
 
 ---
 
 ### 3. Analysis
-
-✔ Project analysis written
-[Open Task 3](./docs/task-3-analysis/README.md)
+⬜ Classic project analysis  
+⬜ AI project analysis  
+[Open Task 3](docs/task-3-analysis)
 
 ---
 
 ### 4. UML
-
-✔ Use Case Diagram created
-✔ Class Diagram created
-✔ Activity Diagram created
-✔ Component Diagram created
-[Open Task 4](./docs/task-4-uml/README.md)
+⬜ Use Case Diagram  
+⬜ Component Diagram  
+⬜ Class Diagram  
+⬜ Activity Diagram  
+[Open Task 4](docs/task-4-uml)
 
 ---
 
 ### 5. DDD
-
-✔ Event Storming completed
-✔ Core Domain Chart created
-✔ Domain Mapping completed
-✔ Bounded Context Canvas created
-[Open Task 5](./docs/task-5-ddd/README.md)
+⬜ Event Storming  
+⬜ Core Domain Chart  
+⬜ Domain Mapping  
+⬜ Bounded Context Canvas  
+[Open Task 5](docs/task-5-ddd)
 
 ---
 
 ### 6. Clean Code
-
-✔ Code improvements explained
-[Open Task 6](./docs/task-6-clean-code/README.md)
+⬜ Explain Clean Code improvements  
+⬜ Personal Clean Code checklist  
+[Open Task 6](docs/task-6-clean-code)
 
 ---
 
 ### 7. Refactoring
-
-✔ Before/After examples
-[Open Task 7](./docs/task-7-refactoring/README.md)
+⬜ Original code documented  
+⬜ Refactored code documented  
+⬜ Improvement explanation added  
+[Open Task 7](docs/task-7-refactoring)
 
 ---
 
 ### 8. Testing
-
-✔ Unit tests added
-[Open Task 8](./docs/task-8-testing/README.md)
-
----
-
-### 9. Metrics
-
-✔ Metrics tool used
-[Open Task 9](./docs/task-9-metrics/README.md)
+⬜ Unit tests added  
+⬜ TDD examples added  
+⬜ AI vs non-AI testing examples  
+[Open Task 8](docs/task-8-testing)
 
 ---
 
-### 10. Build
-
-✔ Build tool used
-[Open Task 10](./docs/task-10-build/README.md)
+### 9. Build Management
+⬜ Build system used (Ant / Maven / Gradle)  
+⬜ Documentation generated  
+⬜ Tests integrated  
+⬜ Reflection added  
+[Open Task 9](docs/task-9-build)
 
 ---
 
-### 11. CI/CD
+### 10. Continuous Delivery (CI/CD)
+⬜ Pipeline created  
+⬜ Scripts integrated  
+⬜ CI/CD workflow documented  
+[Open Task 10](docs/task-10-cicd)
 
-✔ Pipeline created
-[Open Task 11](./docs/task-11-ci/README.md)
+---
+
+### 11. Metrics
+✔ Pylint used  
+✔ Radon Complexity used  
+✔ Maintainability analysis completed  
+✔ Reflection added  
+[Open Task 11](docs/task-11-metrics)
+
+---
+
+### 12. Architecture
+✔ Architecture Communication Canvas created  
+✔ Architecture decisions documented  
+✔ Risks explained  
+✔ Reflection added  
+[Open Task 12](docs/task-12-architecture)
 
 ---
 
 ### 13. AI Coding
-
-✔ AI used in development
-[Open Task 13](./docs/task-13-ai/README.md)
+⬜ AI prompts documented  
+⬜ AI usage documented  
+⬜ Development process explained  
+[Open Task 13](docs/task-13-ai)
