@@ -6,14 +6,12 @@ The goal of this task is to create UML diagrams for the Sukoon project. The diag
 
 The class diagram is mandatory. For this task, four UML diagrams were prepared:
 
-1. Use Case Diagram
-2. Class Diagram
+1. Class Diagram
+2. Activity Diagram
 3. Component Diagram
-4. Activity Diagram
+4. Use Case Diagram
 
-The diagrams are exported as image files and included in this GitHub folder.
-
----
+The diagrams were drawn and exported as one combined image file.
 
 ## Project Context
 
@@ -21,97 +19,26 @@ Sukoon is a smart hospital support application for patients and visitors. The sy
 
 The UML diagrams help explain how the system works and how the main parts are connected.
 
----
+## UML Diagrams
 
-## 1. Use Case Diagram
+The following image contains the four UML diagrams prepared for the Sukoon project:
 
-The Use Case Diagram shows the main actors and their interactions with the Sukoon system.
+1. Class Diagram
+2. Activity Diagram
+3. Component Diagram
+4. Use Case Diagram
 
-Main actors:
+![Task 4 UML Diagrams](./task-4-uml-diagrams.png)
 
-- Patient
-- Hospital visitor
-- Reception staff
-- Hospital admin
+## Diagram Explanation
 
-Main use cases:
+The Class Diagram shows the main classes of the system, such as User, Patient, Visitor, Appointment, Department, Feedback, NavigationService, ReminderService, and SupportService.
 
-- Search hospital department
-- View navigation guidance
-- Receive appointment reminder
-- Request multilingual support
-- Receive emotional support message
-- Ask for general hospital information
-- Submit feedback
-- Update hospital department information
+The Activity Diagram shows the basic user flow. The user opens Sukoon, selects a service, enters request details, and receives either support information or redirection to reception or staff.
 
-Image:
+The Component Diagram shows the main technical parts of the system, including the mobile or web interface, navigation module, appointment module, support module, multilingual module, feedback module, notification service, hospital database, and hospital admin dashboard.
 
-![Use Case Diagram](./use-case-diagram.png)
-
----
-
-## 2. Class Diagram
-
-The Class Diagram shows the main classes and relationships in the Sukoon system.
-
-Main classes:
-
-- User
-- Patient
-- Visitor
-- Appointment
-- Department
-- NavigationService
-- ReminderService
-- SupportService
-- Feedback
-
-Image:
-
-![Class Diagram](./class-diagram.png)
-
----
-
-## 3. Component Diagram
-
-The Component Diagram shows the main technical components of the system.
-
-Main components:
-
-- Mobile App / Web Interface
-- Navigation Module
-- Appointment Module
-- Support Module
-- Multilingual Module
-- Feedback Module
-- Hospital Database
-- Notification Service
-
-Image:
-
-![Component Diagram](./component-diagram.png)
-
----
-
-## 4. Activity Diagram
-
-The Activity Diagram shows the basic flow of how a user interacts with Sukoon.
-
-Example flow:
-
-1. User opens the application
-2. User selects a service
-3. System validates the request
-4. System provides navigation, appointment, or support information
-5. If information is missing, the system redirects the user to reception or staff
-6. User can submit feedback
-
-Image:
-
-![Activity Diagram](./activity-diagram.png)
-
----
+The Use Case Diagram shows the main actors and interactions. The actors include Patient, Visitor, Reception Staff, and Hospital Admin. The use cases include searching for a hospital department, receiving appointment reminders, requesting multilingual support, receiving emotional support, submitting feedback, and updating department information.
 
 ## Reflection
 
