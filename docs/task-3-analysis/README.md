@@ -221,3 +221,9 @@ The product can be developed in phases:
 Sukoon is a realistic digital health software concept that addresses a clear problem in hospitals. It focuses on improving the patient and visitor experience by reducing confusion, supporting navigation, improving communication, and creating a calmer hospital visit.
 
 The project combines software engineering with healthcare management because it considers both technical development and hospital service quality. With a phased development approach, Sukoon can start as a simple prototype and later grow into a more complete hospital support platform.
+
+## Evidence
+
+The analysis was structured using a practical startup analysis checklist. The checklist helped organize the main points of the Sukoon project in a clear order.
+
+![Task 3 Analysis Checklist](./task-3-analysis-checklist-clean.png)
