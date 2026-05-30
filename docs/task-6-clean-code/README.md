@@ -20,6 +20,20 @@ src/horsecare_manager.py
 
 HorseCare Manager is a console-based Python project for basic horse and stable care support. It includes feeding recommendations, training recommendations, health checks, stable cleaning reminders, and horse profile summaries.
 
+## Where to Find the Code Evidence
+
+The clean code examples can be found directly in the source code file:
+
+[Open HorseCare Manager source code](../../src/horsecare_manager.py)
+
+Specific examples to check in the code:
+
+* Constants: `MIN_HORSE_AGE`, `MAX_HORSE_AGE`, `FEVER_TEMPERATURE`
+* Input validation: `validate_horse_age()` and `validate_weight()`
+* Meaningful function names: `get_feeding_recommendation()`, `get_training_recommendation()`, `check_health_status()`, `get_stable_care_reminder()`, `create_horse_summary()`
+* Single responsibility: each function handles one clear task
+* Error handling: `ValueError` and `TypeError` messages for invalid input
+
 ## Clean Code Examples
 
 ## 1. Meaningful Function Names
@@ -81,6 +95,7 @@ Examples:
 * `get_training_recommendation()` creates a training recommendation
 * `check_health_status()` checks basic health indicators
 * `get_stable_care_reminder()` creates a stable-care reminder
+* `create_horse_summary()` creates a short horse profile summary
 
 This makes the code easier to test, understand, and refactor.
 
@@ -129,6 +144,14 @@ This keeps the program understandable and easy to extend.
 13. Refactor when the code becomes hard to read.
 14. Use comments only when they add value.
 15. Make code understandable for another developer.
+
+## Evidence
+
+The evidence for this task is the source code itself. The clean code points described above are visible in `src/horsecare_manager.py`, especially in the use of constants, validation functions, meaningful function names, clear error messages, and separated responsibilities.
+
+Code link:
+
+[Open HorseCare Manager source code](../../src/horsecare_manager.py)
 
 ## Reflection
 
