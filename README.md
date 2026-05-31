@@ -18,21 +18,22 @@ Main code files:
 
 ## Tasks Overview
 
-| Task    | Topic                | Link                                             |
-| ------- | -------------------- | ------------------------------------------------ |
-| Task A  | Small Pet Project    | [Open Task A](docs/task-a)                       |
-| Task 1  | Git                  | [Open Task 1](docs/task-1-git)                   |
-| Task 2  | Requirements         | [Open Task 2](docs/task-2-requirements)          |
-| Task 3  | Analysis             | [Open Task 3](docs/task-3-analysis)              |
-| Task 4  | UML                  | [Open Task 4](docs/task-4-uml)                   |
-| Task 5  | Domain-Driven Design | [Open Task 5](docs/task-5-ddd)                   |
-| Task 6  | Clean Code           | [Open Task 6](docs/task-6-clean-code)            |
-| Task 7  | Refactoring          | [Open Task 7](docs/task-7-refactoring)           |
-| Task 8  | Testing              | [Open Task 8](docs/task-8-testing)               |
-| Task 9  | Build Management     | [Open Task 9](docs/task-9-build-management)      |
-| Task 10 | Continuous Delivery  | [Open Task 10](docs/task-10-continuous-delivery) |
-| Task 11 | Metrics              | [Open Task 11](docs/task-11-metrics)             |
-| Task 12 | Architecture         | [Open Task 12](docs/task-12-architecture)        |
+| Task    | Topic                                   | Link                                             |
+| ------- | --------------------------------------- | ------------------------------------------------ |
+| Task A  | Small Pet Project – Mood Tracker        | [Open Task A](docs/task-a)                       |
+| Task 1  | Git                                     | [Open Task 1](docs/task-1-git)                   |
+| Task 2  | Requirements                            | [Open Task 2](docs/task-2-requirements)          |
+| Task 3  | Analysis                                | [Open Task 3](docs/task-3-analysis)              |
+| Task 4  | UML                                     | [Open Task 4](docs/task-4-uml)                   |
+| Task 5  | Domain-Driven Design                    | [Open Task 5](docs/task-5-ddd)                   |
+| Task 6  | Clean Code – HorseCare Manager          | [Open Task 6](docs/task-6-clean-code)            |
+| Task 7  | Refactoring – HorseCare Manager         | [Open Task 7](docs/task-7-refactoring)           |
+| Task 8  | Testing – HorseCare Manager             | [Open Task 8](docs/task-8-testing)               |
+| Task 9  | Build Management – HorseCare Manager    | [Open Task 9](docs/task-9-build-management)      |
+| Task 10 | Continuous Delivery – HorseCare Manager | [Open Task 10](docs/task-10-continuous-delivery) |
+| Task 11 | Metrics                                 | [Open Task 11](docs/task-11-metrics)             |
+| Task 12 | Architecture                            | [Open Task 12](docs/task-12-architecture)        |
+| Task 13 | Assisted Coding / Vibe Coding           | [Open Task 13](docs/task-13-assisted-coding)     |
 
 ## Task A – Small Pet Project
 
@@ -164,6 +165,21 @@ This task contains architecture documentation for the project, including archite
 Documentation:
 
 [Open Task 12](docs/task-12-architecture)
+
+## Task 13 – Assisted Coding / Vibe Coding
+
+This task documents the assisted coding process used for the HorseCare Manager project. It explains how the project idea, code structure, testing, build setup, and CI workflow were developed step by step.
+
+Documentation:
+
+[Open Task 13](docs/task-13-assisted-coding)
+
+Related files:
+
+* [HorseCare Manager source code](src/horsecare_manager.py)
+* [HorseCare Manager tests](tests/test_horsecare_manager.py)
+* [Makefile](Makefile)
+* [GitHub Actions workflow](.github/workflows/python-ci.yml)
 
 ## How to Run the HorseCare Manager Project
 
