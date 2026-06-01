@@ -1,10 +1,22 @@
-# Task 13 – Assisted Coding / Vibe Coding
+# Task 13 – Assisted / Vibe Coding
+
+## Course Requirement Reference
+
+In the course task sheet, this section is described as the Assisted / Vibe / Agentic Coding task.
+In this repository, I documented it as Task 13 to keep it clearly separated from Task 12 – Architecture.
 
 ## Goal
 
-The goal of this task is to document how assisted coding was used during the development of the practical coding part of this Software Engineering project.
+The goal of this task is to document how assisted and vibe coding were used during the development of the practical coding part of this Software Engineering project.
 
-For this task, I used assisted coding as a support method to plan, structure, and improve the **HorseCare Manager** Python project. The final result was reviewed, adapted, extended with a GUI, and connected to the course tasks such as Clean Code, Refactoring, Testing, Build Management, and Continuous Delivery.
+For this task, I used assisted coding as a support method to plan, structure, improve, and visually extend the **HorseCare Manager** project. The final result was reviewed, adapted, implemented, tested, and documented in GitHub.
+
+This task includes:
+
+1. A GUI extension for the Python project
+2. A Lovable-vibed dashboard prototype for the bigger pet project
+3. A modular Python implementation with tests, build commands, and CI workflow
+4. Step-by-step documentation of the development process and code understanding
 
 ## Project Used
 
@@ -13,6 +25,8 @@ The assisted coding work is based on the improved pet project:
 ```text
 HorseCare Manager
 ```
+
+HorseCare Manager is a horse and stable care support project. It includes horse profile summaries, feeding recommendations, training recommendations, basic health checks, and stable cleaning reminders.
 
 Source code:
 
@@ -38,15 +52,20 @@ Related tasks:
 
 This task covers three main parts:
 
-1. Creating a GUI for the project
-2. Extending the pet project into a more structured coding example
-3. Documenting the development process and code understanding step by step
+1. **Part A – GUI Extension**
+   A visual GUI was created for the HorseCare Manager project.
 
-The work was not done as one single generated result. It was developed in smaller steps, reviewed, adapted, and documented inside GitHub.
+2. **Part B – Lovable Vibe Coding Prototype**
+   A professional web dashboard prototype was created using Lovable to show the bigger pet project as a polished product-style interface.
+
+3. **Part C – Modular Python Implementation and Documentation**
+   The Python project was implemented with separate source code, tests, build commands, requirements, and GitHub Actions workflow.
+
+The work was not treated as one single generated result. It was developed step by step, reviewed, adapted, tested, and documented inside GitHub.
 
 ## Part A – GUI Extension
 
-A simple graphical user interface was created for the HorseCare Manager project.
+A graphical user interface was created for the HorseCare Manager project.
 
 GUI file:
 
@@ -69,33 +88,58 @@ The GUI includes buttons for:
 * Running a basic health check
 * Getting a stable care reminder
 
-This extends the console-based project into a more visual and user-friendly form.
+This extends the console-based project into a more visual and user-friendly form. The GUI also helps demonstrate how the same project logic can be reused in a different interface.
 
-## Part B – Bigger Pet Project
+## Part B – Lovable Vibe Coding Prototype
 
-The original small pet project was a simple Mood Tracker. It was useful for the first coding task, but it was too small for the later technical tasks.
+For Part B, I created the bigger HorseCare Manager project as a visual web app prototype using **Lovable**.
 
-For the larger coding part, I created **HorseCare Manager** because it has more meaningful logic and a clearer domain.
+The goal was to show the project as a professional dashboard-style product and not only as Python source code. I used Lovable to create a premium stable-management dashboard concept for HorseCare Manager Pro.
 
-HorseCare Manager includes:
+The Lovable prototype includes:
 
-* Horse profile summary
-* Feeding recommendation
-* Training recommendation
-* Basic health check
-* Stable cleaning reminder
-* Input validation
-* Error handling
-* Unit tests
-* Build commands
-* GitHub Actions workflow
-* GUI extension
+* A dark green navigation sidebar
+* Dashboard overview cards
+* Horse profile information
+* Care input fields
+* A realistic stable view
+* Recommendation output
+* Professional product-style layout
+* Clean visual design suitable for a presentation
 
-This made it more suitable for Clean Code, Refactoring, Testing, Build Management, Continuous Delivery, and Assisted Coding documentation.
+This part demonstrates the vibe coding aspect of the task because the dashboard was created from a descriptive prompt and then reviewed visually.
 
-## Part C – Development Tools and Process
+## Part C – Modular Python Implementation
 
-The project was developed and documented using GitHub and Visual Studio Code.
+In addition to the Lovable prototype, I also implemented the HorseCare Manager concept as a modular Python project.
+
+Important project files:
+
+| File                                                                     | Purpose                    |
+| ------------------------------------------------------------------------ | -------------------------- |
+| [src/horsecare_manager.py](../../src/horsecare_manager.py)               | Main project logic         |
+| [src/horsecare_gui.py](../../src/horsecare_gui.py)                       | GUI extension              |
+| [tests/test_horsecare_manager.py](../../tests/test_horsecare_manager.py) | Unit tests                 |
+| [Makefile](../../Makefile)                                               | Build and quality commands |
+| [requirements.txt](../../requirements.txt)                               | Python dependencies        |
+| [.github/workflows/python-ci.yml](../../.github/workflows/python-ci.yml) | GitHub Actions workflow    |
+
+This shows that the project is not only a visual concept, but also connected to executable source code and software engineering practices.
+
+## Development Tools and Process
+
+The project was developed and documented using:
+
+* GitHub
+* Visual Studio Code
+* Python
+* Tkinter
+* Pytest
+* Pylint
+* Radon
+* Makefile
+* GitHub Actions
+* Lovable
 
 The practical work includes:
 
@@ -105,18 +149,9 @@ The practical work includes:
 * Requirements file
 * Makefile
 * GitHub Actions workflow
-* Task documentation in Markdown
-
-Important project files:
-
-| File                                                                     | Purpose                 |
-| ------------------------------------------------------------------------ | ----------------------- |
-| [src/horsecare_manager.py](../../src/horsecare_manager.py)               | Main project logic      |
-| [src/horsecare_gui.py](../../src/horsecare_gui.py)                       | GUI extension           |
-| [tests/test_horsecare_manager.py](../../tests/test_horsecare_manager.py) | Unit tests              |
-| [Makefile](../../Makefile)                                               | Build commands          |
-| [requirements.txt](../../requirements.txt)                               | Python dependencies     |
-| [.github/workflows/python-ci.yml](../../.github/workflows/python-ci.yml) | GitHub Actions workflow |
+* Lovable dashboard prototype
+* Markdown documentation
+* Screenshots showing the project running
 
 ## Assisted Coding Process
 
@@ -124,7 +159,7 @@ The development process was done step by step.
 
 The process included:
 
-1. Starting with a simple pet project
+1. Starting with a simple pet project idea
 2. Deciding to create a stronger project for the technical tasks
 3. Choosing a horse-care domain
 4. Creating the first Python structure
@@ -135,7 +170,8 @@ The process included:
 9. Adding a Makefile
 10. Adding a GitHub Actions workflow
 11. Adding a GUI extension
-12. Documenting the code understanding and development process in GitHub
+12. Creating a Lovable dashboard prototype
+13. Documenting the code understanding and development process in GitHub
 
 ## Example Prompts Used
 
@@ -180,7 +216,19 @@ Create a simple Makefile and GitHub Actions workflow for a Python project that r
 ### Prompt 7 – GUI Extension
 
 ```text
-Create a simple Python tkinter GUI for HorseCare Manager. The GUI should use the existing functions and include fields for horse name, age, weight, activity level, temperature, and stable cleaning days.
+Create a Python tkinter GUI for HorseCare Manager. The GUI should use the existing functions and include fields for horse name, age, weight, activity level, temperature, and stable cleaning days. The interface should look like a professional dashboard.
+```
+
+### Prompt 8 – Lovable Dashboard Prototype
+
+```text
+Build a high-end professional web app prototype called HorseCare Manager Pro.
+
+The app is for stable and horse care management. It should look like a modern dashboard, not a simple form.
+
+The design should use a deep forest green sidebar, cream background, white dashboard cards, muted gray text, gold accent details, soft shadows, rounded cards, elegant spacing, and realistic horse and stable visual elements.
+
+The dashboard should include horse profile information, feeding plan, training plan, health check, stable care reminder, input fields, action buttons, stable view, and recommendation output.
 ```
 
 ## Code Understanding
@@ -195,7 +243,7 @@ The main functions in the project are:
 * `get_stable_care_reminder()` returns a stable cleaning reminder.
 * `create_horse_summary()` creates a short horse profile summary.
 * `run_console_app()` handles the console interaction.
-* `HorseCareGUI` creates the graphical user interface.
+* `HorseCareDashboard` creates the graphical user interface.
 
 ## What Was Improved
 
@@ -209,20 +257,25 @@ After using assisted coding support, the project was improved in several ways:
 6. A Makefile was added for build management.
 7. A GitHub Actions workflow was added for automated checks.
 8. A GUI was created to extend the console project.
+9. A Lovable dashboard prototype was created to show the bigger pet project visually.
+10. Screenshots were added so the results can be reviewed directly in GitHub.
 
 ## Limitations
 
-The project is still a small educational application. It is not a professional stable management system and it is not a veterinary tool.
+The project is an educational software engineering prototype. It focuses on demonstrating software engineering concepts such as modular structure, GUI development, testing, build management, CI workflow, and assisted coding.
 
-The recommendations are simplified and are only used to demonstrate software engineering concepts such as clean code, testing, refactoring, build management, continuous delivery, and assisted coding.
+The care recommendations are simplified and are used to demonstrate application logic within the project. A real stable management system would require expert validation, more detailed horse and stable data, user accounts, database storage, and professional domain review.
 
 ## Reflection
 
-This task helped me understand how assisted coding can support software development when it is used step by step.
+This task helped me understand how assisted coding and vibe coding can support software development when they are used step by step.
 
 The most useful part was not only generating code, but improving the structure, understanding the functions, writing tests, creating a GUI, and connecting the code to the Software Engineering tasks.
 
-I learned that assisted coding should not replace understanding. It is more useful when it supports planning, structure, testing, and documentation while the developer still reviews and adapts the result.
+Using Lovable helped me understand how a project idea can be turned into a visual dashboard prototype quickly. The Python implementation helped me understand the logic behind the project and how the concept can be connected to actual code.
+
+I learned that assisted coding should not replace understanding. It is more useful when it supports planning, structure, testing, visual prototyping, and documentation while the developer still reviews and adapts the result.
+
 ## Practical Screenshots and Lovable Prototype
 
 ### Part A – GUI Running
