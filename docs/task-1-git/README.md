@@ -64,4 +64,4 @@ This task helped me understand why version control is important in software proj
 
 This screenshot shows the Pull Request that was created from the `task-1-git-workflow` branch and merged back into `main`.
 
-![Branch and Merge Workflow](./task-1-branch-merge-workflow.png)
+![Branch and Merge Workflow](./task-1-branch-merge-workflow.png.jpg)
