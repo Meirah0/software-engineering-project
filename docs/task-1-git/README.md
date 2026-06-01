@@ -58,3 +58,10 @@ The Git work can be reviewed in the repository through:
 ## Reflection
 
 This task helped me understand why version control is important in software projects. Git makes it easier to track changes, organize work, review older versions, and develop features safely without directly changing the main version of the project.
+## Screenshot
+
+### Branch and Merge Workflow
+
+This screenshot shows the Pull Request that was created from the `task-1-git-workflow` branch and merged back into `main`.
+
+![Branch and Merge Workflow](./task-1-branch-merge-workflow.png)
