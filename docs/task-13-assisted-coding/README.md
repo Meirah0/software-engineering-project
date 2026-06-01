@@ -223,3 +223,16 @@ This task helped me understand how assisted coding can support software developm
 The most useful part was not only generating code, but improving the structure, understanding the functions, writing tests, creating a GUI, and connecting the code to the Software Engineering tasks.
 
 I learned that assisted coding should not replace understanding. It is more useful when it supports planning, structure, testing, and documentation while the developer still reviews and adapts the result.
+## Practical Screenshots
+
+### Part A – GUI Running
+
+This screenshot shows the HorseCare Manager Pro dashboard running as a visual GUI. The interface includes horse profile inputs, care actions, stable overview, and recommendation output.
+
+![HorseCare Manager GUI Running](./task-13-gui-running.png)
+
+### Part B – Bigger Pet Project Running
+
+This screenshot shows the HorseCare Manager project running as a Python console application. It demonstrates that the bigger pet project is executable and connected to the documented source code.
+
+![HorseCare Manager Console Running](./task-13-horsecare-console-running.png)
