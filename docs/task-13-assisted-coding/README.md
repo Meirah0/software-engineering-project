@@ -223,7 +223,7 @@ This task helped me understand how assisted coding can support software developm
 The most useful part was not only generating code, but improving the structure, understanding the functions, writing tests, creating a GUI, and connecting the code to the Software Engineering tasks.
 
 I learned that assisted coding should not replace understanding. It is more useful when it supports planning, structure, testing, and documentation while the developer still reviews and adapts the result.
-## Practical Screenshots
+## Practical Screenshots and Lovable Prototype
 
 ### Part A – GUI Running
 
@@ -231,8 +231,22 @@ This screenshot shows the HorseCare Manager Pro dashboard running as a visual GU
 
 ![HorseCare Manager GUI Running](./task-13-gui-running.png)
 
-### Part B – Bigger Pet Project Running
+---
 
-This screenshot shows the HorseCare Manager project running as a Python console application. It demonstrates that the bigger pet project is executable and connected to the documented source code.
+### Part B – Lovable Vibe Coding Prototype
 
-![HorseCare Manager Console Running](./task-13-horsecare-console-running.png)
+For Part B, I created the bigger HorseCare Manager project as a visual web app prototype using Lovable. The goal was to show the project as a professional dashboard-style product with a polished interface.
+
+I used Lovable to generate a premium stable-management dashboard for HorseCare Manager Pro. The prototype includes a sidebar, dashboard cards, horse profile information, care input fields, a realistic stable view, and recommendation output.
+
+#### Lovable Prompt Screenshot
+
+This screenshot shows part of the Lovable prompt used to create the dashboard prototype.
+
+![Lovable Prompt](./task-13-lovable-prompt.png)
+
+#### Lovable Dashboard Result
+
+This screenshot shows the generated Lovable dashboard prototype for HorseCare Manager Pro.
+
+![Lovable Dashboard Prototype](./task-13-lovable-dashboard.png)
