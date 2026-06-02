@@ -2,72 +2,168 @@
 
 ## Goal
 
-The goal of this task is to show that I used Git and GitHub during the project and that I understand the basic Git workflow.
+The goal of this task is to show that I used and understood basic Git version control commands during the Software Engineering project.
 
-## What I Did
+This task documents how I worked with:
 
-For this project, I used GitHub as the version control platform. I created a public repository and organized my Software Engineering tasks inside it.
+* Git repository usage
+* commits
+* branch workflow
+* pull request and merge
+* commit history
+* Git time travelling with `git checkout`
 
-During the project, I added files step by step and used commits to document my progress. The repository includes task documentation, source code, tests, diagrams, build files, and a GitHub Actions workflow.
+Git was used to track changes, organize the project step by step, and document the development process in a public GitHub repository.
 
-## Git Workflow Used
+## Repository Used
 
-The main Git workflow I used includes:
+This task is based on the main Software Engineering project repository:
 
-1. Creating a repository
-2. Adding project files
-3. Making commits
-4. Reviewing commit history
-5. Creating a separate branch
-6. Making a change on the branch
-7. Creating a Pull Request
-8. Merging the branch back into `main`
+```text
+software-engineering-project
+```
 
-## Branch, Merge, and Commit History Workflow
+The repository contains the Software Engineering documentation, source code, screenshots, tests, workflow files, and task folders.
 
-To complete the Git task more practically, I created a separate branch called `task-1-git-workflow`.
+## What I Practiced
 
-In this branch, I made a small documentation update and then merged it back into `main` using a Pull Request.
+For this Git task, I practiced the following:
 
-This shows that I practiced a basic Git workflow:
+1. Creating and updating a GitHub repository
+2. Adding project files and documentation
+3. Making commits with clear commit messages
+4. Creating a separate branch
+5. Making a change on the branch
+6. Opening a Pull Request
+7. Merging the branch back into `main`
+8. Reviewing Git history
+9. Using Git time travelling with a specific commit ID
+10. Returning from an older commit back to the current `main` branch
 
-1. Create a branch
-2. Make a change on the branch
-3. Commit the change
-4. Create a Pull Request
-5. Merge the branch back into `main`
+## Git Commands Used
 
-For reviewing earlier versions, I used the GitHub commit history to open older versions of files and compare changes. This helped me understand how Git stores previous project states and how older versions can be reviewed.
+During the project, I used these Git concepts and commands:
 
-## My Experience
+```bash
+git status
+git add .
+git commit -m "message"
+git branch
+git checkout <commit-id>
+git log --oneline -1
+git switch main
+```
 
-At the beginning, I mainly used GitHub to upload and organize files. Later, I understood that Git is not only for saving files, but also for tracking the development process.
+These commands helped me understand how Git tracks changes and how older versions of a project can be reviewed.
 
-Using commits helped me see how the project changed over time. Creating a branch and merging it back into `main` helped me understand a more realistic workflow that is closer to how software teams work.
+## Branch and Merge Workflow
 
-## Repository Evidence
+To practice branching and merging, I created a separate branch for the Git workflow documentation.
 
-The Git work can be reviewed in the repository through:
+The branch was used to make a change separately from the `main` branch. After the change was completed, I opened a Pull Request and merged it back into `main`.
 
-- the commit history
-- the branch history
-- the Pull Request history
-- the organized project structure
-- the task-specific documentation files
+This helped me understand the basic Git collaboration workflow:
+
+1. Start from `main`
+2. Create a separate branch
+3. Make a change on the branch
+4. Commit the change
+5. Open a Pull Request
+6. Merge the Pull Request into `main`
+
+## Branch and Merge Screenshot
+
+This screenshot shows the Pull Request that was successfully merged back into the `main` branch.
+
+![Git Branch Merge Workflow](./task-1-branch-merge-workflow.png)
+
+## Git Time Travelling with Checkout
+
+For Git time travelling, I used `git checkout` with a specific commit ID from my repository.
+
+The commit ID I used was:
+
+```text
+9c593cf
+```
+
+This commit belongs to an older project state:
+
+```text
+Add HorseCare Manager GUI
+```
+
+I used the following command:
+
+```bash
+git checkout 9c593cf
+```
+
+This command moved the project temporarily to an older commit. Git showed the repository in a `detached HEAD` state, which means I was viewing a previous version of the project instead of the current `main` branch.
+
+To verify that I was really at the older commit, I used:
+
+```bash
+git log --oneline -1
+```
+
+This showed the selected older commit:
+
+```text
+9c593cf Add HorseCare Manager GUI
+```
+
+After reviewing the older project state, I returned to the current main branch using:
+
+```bash
+git switch main
+```
+
+Finally, I checked the repository status again:
+
+```bash
+git status
+```
+
+This confirmed that I was back on the `main` branch and that the working tree was clean.
+
+## Time Travelling Screenshot
+
+This screenshot shows the full Git time travelling process:
+
+1. Starting on the `main` branch
+2. Checking out an older commit with `git checkout 9c593cf`
+3. Seeing the repository in detached HEAD state
+4. Verifying the old commit with `git log --oneline -1`
+5. Returning to `main` with `git switch main`
+6. Checking that the repository is clean again
+
+![Git Checkout Time Travelling](./task-1-git-checkout-time-travel.png)
+
+## What I Learned
+
+This task helped me understand that Git is not only used to save files, but also to control the history of a software project.
+
+I learned that branches are useful because they allow changes to be developed separately before being merged into the main project.
+
+I also learned that Git time travelling means moving to an older commit to inspect a previous version of the project. The most important part was understanding that `git checkout <commit-id>` allows me to view an older state, and `git switch main` brings me back to the current branch.
 
 ## Reflection
 
-This task helped me understand why version control is important in software projects. Git makes it easier to track changes, organize work, review older versions, and develop features safely without directly changing the main version of the project.
-## Screenshot
+At first, I thought that opening an old commit in GitHub was enough to show time travelling. After feedback, I understood that the important part is applying the Git command directly.
 
-### Branch and Merge Workflow
+By using:
 
-This screenshot shows the Pull Request that was created from the `task-1-git-workflow` branch and merged back into `main`.
+```bash
+git checkout 9c593cf
+```
 
-![Branch and Merge Workflow](./task-1-branch-merge-workflow.png.jpg)
+I was able to move back to an older project state. Then, by using:
 
-### Commit History Review / Time Travelling
+```bash
+git switch main
+```
 
-This screenshot shows how I used the GitHub commit history to open and review an earlier project state. This represents Git time travelling because Git allows previous versions of files and changes to be inspected through older commits.
+I returned safely to the current version of the project.
 
-![Commit History Review](./task-1-commit-history-review.png)
+This helped me understand Git history more clearly and showed me how version control can be used to inspect earlier versions without losing the current work.
