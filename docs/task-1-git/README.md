@@ -7,10 +7,10 @@ The goal of this task is to demonstrate practical use of Git version control wit
 This documentation covers:
 
 * Repository usage
-* Commit history
+* Commit workflow
 * Branch workflow
 * Pull Request and merge process
-* Commit history review
+* Git history navigation
 * Git time travelling using `git checkout`
 
 Git was used to organize the project work, track changes, document development progress, and manage different project states.
@@ -38,7 +38,7 @@ The workflow included:
 5. Creating a separate branch for Git workflow documentation
 6. Opening a Pull Request
 7. Merging the branch back into `main`
-8. Reviewing previous commits
+8. Selecting an older commit from the project history
 9. Checking out a specific older commit
 10. Returning safely to the current `main` branch
 
@@ -79,11 +79,11 @@ This screenshot shows the Pull Request that was successfully merged back into th
 
 ![Git Branch Merge Workflow](./task-1-branch-merge-workflow.png.jpg)
 
-## Commit History Review
+## Selected Commit for Time Travelling
 
-Before applying Git time travelling locally, I reviewed the GitHub commit history to identify a suitable older commit ID.
+For the checkout-based time travelling example, I selected an older commit from my repository.
 
-The selected commit was:
+The selected commit ID was:
 
 ```text
 9c593cf
@@ -95,9 +95,7 @@ Commit message:
 Add HorseCare Manager GUI
 ```
 
-This commit was used as the target commit for the checkout-based time travelling example.
-
-![Commit History Review](./task-1-commit-history-review.png)
+This commit was used as the target for the local `git checkout` command.
 
 ## Git Time Travelling with Checkout
 
@@ -111,7 +109,7 @@ git checkout 9c593cf
 
 This command temporarily moved the repository to an older project state. Git showed the repository in a `detached HEAD` state, which means the working directory was no longer on the latest `main` branch but on the selected older commit.
 
-To verify the selected commit, I used:
+To verify that the selected older commit was active, I used:
 
 ```bash
 git log --oneline -1
@@ -163,9 +161,9 @@ The checkout-based time travelling example shows how a specific older commit can
 This task documents the practical Git workflow used in the project:
 
 * A branch was created and merged through a Pull Request.
-* Commit history was reviewed to identify an older project state.
+* An older commit ID was selected from the project history.
 * A specific commit ID was checked out using `git checkout`.
 * The detached HEAD state was documented.
 * The repository was returned safely to the `main` branch.
 
-Together, these steps demonstrate version control, branch workflow, merge workflow, and basic Git time travelling.
+Together, these steps demonstrate version control, branch workflow, merge workflow, history inspection, and basic Git time travelling.
