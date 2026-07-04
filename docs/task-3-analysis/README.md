@@ -2,7 +2,9 @@
 
 ## Method Note
 
-This analysis was prepared with support from AI tools for structure and wording. The final content was reviewed, selected, and adapted to fit my own project idea and the task requirements.
+This analysis is based on my semester project idea, Sukoon, a digital hospital support application for patients and visitors.
+
+AI tools were used to support the structure, wording, and refinement of this analysis. I reviewed the content, selected the relevant parts, adapted it to my own project idea, and adjusted it to fit the task requirements.
 
 This document has two parts. The first part analyzes Sukoon as a normal digital health and hospital support startup. The second part analyzes the same idea again, but as a startup where AI becomes part of the main product.
 
@@ -42,7 +44,7 @@ The main value is not that Sukoon is a complicated technology. The value is that
 
 ## Market and Context
 
-Digital health is growing, and hospitals are under pressure to improve patient experience and digital services. Many hospitals already use websites, appointment systems, and digital communication tools, but the user journey inside the hospital is still often fragmented.
+Hospitals and clinics are becoming more digital, but many patient support processes are still fragmented. Patients often need to use websites, signs, reception desks, phone calls, printed instructions, and appointment letters at the same time.
 
 Sukoon could fit into this market as a hospital support and orientation tool. It would not be a medical diagnosis product. It would focus on information, guidance, and service quality.
 
@@ -199,4 +201,3 @@ The classic startup analysis shows that Sukoon can work as a normal digital supp
 The AI version can create more value, but it also creates more risk. For that reason, Sukoon AI needs clear limits, reliable data, and a human escalation process.
 
 This task helped me separate a normal digital health startup idea from an AI-based startup idea. The difference is not only the technology. The difference is also the value, risk, data needs, and responsibility.
-
