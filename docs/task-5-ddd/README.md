@@ -4,7 +4,7 @@
 
 Sukoon – Smart Hospital Support Application
 
-For this task, I applied Domain-Driven Design to the Sukoon project. Sukoon is a digital hospital support application for patients and visitors. The goal of the DDD work is to understand the main business areas of the system and to separate them into meaningful domains.
+For this task, I applied Domain-Driven Design to the Sukoon project. Sukoon is a digital hospital support application for patients and visitors. The goal of the DDD work is to understand the main business areas of the system and separate them into meaningful domains.
 
 This task contains the following parts:
 
@@ -17,7 +17,7 @@ This task contains the following parts:
 
 ## A – Event Storming
 
-The Event Storming was revised to follow the correct DDD structure.
+The Event Storming part was revised to follow a clearer DDD structure.
 
 Instead of creating a process flow with actors, commands, events, and domains in one line, I separated the work into three steps:
 
@@ -29,7 +29,7 @@ The purpose of the first step is to collect domain events only. Events describe 
 
 ## A1 – Event Whiteboard
 
-The Event Whiteboard collects possible domain events for the Sukoon system without sorting them yet.
+The Event Whiteboard collects possible domain events for the Sukoon system before sorting them into areas.
 
 Examples of events used in this step:
 
@@ -52,13 +52,13 @@ Visitor Information Viewed
 Feedback Submitted
 ```
 
-These are events because they describe something that happened in the system or in the hospital support process.
+These are events because they describe something that already happened in the system or in the hospital support process.
 
 ![Sukoon Event Whiteboard](./Sukoon_EventWhiteboard.png)
 
 ## A2 – Sorted Whiteboard
 
-After collecting the events, I sorted them into meaningful groups. This helped me see which parts of the Sukoon system belong together.
+After collecting the events, I sorted them into meaningful business areas. This helped me understand which events belong together and which parts of the system could become separate domains.
 
 The sorted areas are:
 
@@ -79,7 +79,7 @@ This step helped me move from a raw event collection to a clearer domain structu
 
 ## A3 – Domain Identification
 
-From the sorted events, I identified the main domains of Sukoon.
+From the sorted events, I identified the main domains of the Sukoon system.
 
 The identified domains are:
 
@@ -94,7 +94,7 @@ Visitor Information
 Reporting
 ```
 
-The most important domains for the product are Appointment Management, Navigation Support, and AI Guidance Support, because they create the main value for patients and visitors.
+The most important domains for the product are Appointment Management, Navigation Support, and AI Guidance Support because they create the main value for patients and visitors.
 
 ![Sukoon Domain Identification](./Sukoon_DomainIdentification.png)
 
@@ -104,7 +104,7 @@ The Core Domain Chart separates the domains into Core Domain, Supporting Domain,
 
 The Core Domain contains the parts that make Sukoon valuable and different. The Supporting Domain contains important helper areas. The Generic Domain contains common functions that many applications need.
 
-![Sukoon Core Domain Chart](./Sukoon_CoreDomainChart.png)
+![Sukoon Core Domain Chart](./Sukoon_CoreDomainChart%20\(3\).png)
 
 ## Core Domain
 
@@ -150,7 +150,7 @@ These are needed in many software systems and are not unique to Sukoon.
 
 The Domain Mapping shows how the domains depend on each other and how they communicate.
 
-![Sukoon Domain Mapping](./Sukoon_DomainMapping.png)
+![Sukoon Domain Mapping](./Sukoon_DomainMapping%20\(2\).png)
 
 The most important relationships are:
 
