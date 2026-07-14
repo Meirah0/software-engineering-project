@@ -13,22 +13,22 @@ The final result is a distributed client-server application with:
 - Pydantic validation
 - Pytest service and API tests
 - GitHub Actions
-- Documentation and live demo evidence
+- Documentation and live demo validation
 
 ---
 
 ## Project Overview
 
-HorseCare Manager Pro is a horse and stable care support application.
+HorseCare Manager Pro is a horse and stable-care support application.
 
 It includes:
 
-- Horse profile summary
+- Horse profile summaries
 - Horse age validation
 - Feeding recommendations
 - Training recommendations
 - Health checks
-- Stable cleaning reminders
+- Stable-cleaning reminders
 
 ---
 
@@ -79,7 +79,7 @@ Tkinter GUI
 Direct Python imports
     ↓
 horsecare_manager.py
-```
+````
 
 The GUI directly imported Python functions. There were no HTTP requests, no API layer, and no JSON communication.
 
@@ -119,12 +119,12 @@ The FastAPI backend entry point is:
 
 The service modules are:
 
-| File | Responsibility |
-|---|---|
-| [horse_service.py](../../backend/services/horse_service.py) | Horse age validation and profile summary |
-| [recommendation_service.py](../../backend/services/recommendation_service.py) | Feeding and training recommendations |
-| [health_service.py](../../backend/services/health_service.py) | Temperature and appetite checks |
-| [stable_service.py](../../backend/services/stable_service.py) | Stable cleaning reminders |
+| File                                                                          | Responsibility                           |
+| ----------------------------------------------------------------------------- | ---------------------------------------- |
+| [horse_service.py](../../backend/services/horse_service.py)                   | Horse age validation and profile summary |
+| [recommendation_service.py](../../backend/services/recommendation_service.py) | Feeding and training recommendations     |
+| [health_service.py](../../backend/services/health_service.py)                 | Temperature and appetite checks          |
+| [stable_service.py](../../backend/services/stable_service.py)                 | Stable-cleaning reminders                |
 
 The backend uses Pydantic models to validate incoming JSON requests.
 
@@ -193,26 +193,32 @@ Backend Offline
 
 The project includes:
 
-- Original HorseCare Manager tests
-- Service module tests
-- FastAPI endpoint tests
-- Valid input tests
-- Invalid input tests
-- Pydantic validation tests
-- Backend health endpoint test
+* Original HorseCare Manager tests
+* Service module tests
+* FastAPI endpoint tests
+* Valid input tests
+* Invalid input tests
+* Pydantic validation tests
+* Backend health endpoint test
 
 Important test files:
 
-| File | Purpose |
-|---|---|
-| [test_horsecare_manager.py](../../tests/test_horsecare_manager.py) | Original logic tests |
-| [test_services.py](../../tests/test_services.py) | Service module tests |
-| [test_api.py](../../tests/test_api.py) | FastAPI endpoint tests |
+| File                                                               | Purpose                |
+| ------------------------------------------------------------------ | ---------------------- |
+| [test_horsecare_manager.py](../../tests/test_horsecare_manager.py) | Original logic tests   |
+| [test_services.py](../../tests/test_services.py)                   | Service module tests   |
+| [test_api.py](../../tests/test_api.py)                             | FastAPI endpoint tests |
 
 Run all tests with:
 
 ```powershell
 python -m pytest
+```
+
+The final test run completed successfully:
+
+```text
+32 passed
 ```
 
 ---
@@ -249,22 +255,22 @@ Both terminals must remain open because the frontend and backend are separate ap
 
 The project was developed using:
 
-- Visual Studio Code
-- Python
-- FastAPI
-- Pydantic
-- React
-- TypeScript
-- Lovable
-- TanStack
-- Vite
-- HTTP and JSON
-- Pytest
-- FastAPI TestClient
-- Pylint
-- Radon
-- Makefile
-- GitHub Actions
+* Visual Studio Code
+* Python
+* FastAPI
+* Pydantic
+* React
+* TypeScript
+* Lovable
+* TanStack
+* Vite
+* HTTP and JSON
+* Pytest
+* FastAPI TestClient
+* Pylint
+* Radon
+* Makefile
+* GitHub Actions
 
 ---
 
@@ -293,38 +299,38 @@ The development process included:
 
 The final version improves the original project by adding:
 
-- Separate frontend and backend applications
-- HTTP communication
-- JSON requests and responses
-- FastAPI endpoints
-- Pydantic validation
-- Separate service modules
-- Modern Lovable web interface
-- Backend connection status
-- Loading and error handling
-- Service tests
-- API endpoint tests
-- Swagger documentation
-- Working sidebar navigation
-- Professional live demo interface
+* Separate frontend and backend applications
+* HTTP communication
+* JSON requests and responses
+* FastAPI endpoints
+* Pydantic validation
+* Separate service modules
+* Modern Lovable web interface
+* Backend connection status
+* Loading and error handling
+* Service tests
+* API endpoint tests
+* Swagger documentation
+* Working sidebar navigation
+* Professional live demo interface
 
 ---
 
-## Limitations
+## Limitations and Future Development
 
-This project is an educational software engineering application.
+HorseCare Manager Pro currently provides the core functions required for horse and stable-care support.
 
-The recommendations are simplified and are intended to demonstrate application logic and distributed architecture.
+The system can be extended with:
 
-A production version would require:
-
-- User authentication
-- Database storage
-- HTTPS
-- Professional veterinary validation
-- More detailed horse data
-- Logging and monitoring
-- Deployment configuration
+* User authentication
+* Database storage
+* HTTPS
+* Professional veterinary validation
+* More detailed horse profiles
+* Historical health records
+* Feeding and training history
+* Logging and monitoring
+* Deployment configuration
 
 ---
 
@@ -340,23 +346,53 @@ I also learned that assisted coding is most useful when the generated work is re
 
 ---
 
-## Practical Evidence
+## System Demonstration and Validation
 
-The final evidence should include screenshots of:
+### Final Repository Structure
 
-- Final project folder structure
-- FastAPI backend terminal
-- Lovable frontend terminal
-- Dashboard with Backend Online
-- Horse summary result
-- Feeding or training recommendation
-- Health check result
-- Stable-care result
-- Browser Network request
-- JSON request payload
-- JSON backend response
-- FastAPI Swagger documentation
-- Passing pytest results
+![Final repository structure](task-13-final-structure.png)
+
+### Backend Running
+
+![Backend running](task-13-backend-running.png)
+
+### Frontend Running
+
+![Frontend running](task-13-frontend-running.png)
+
+### Dashboard Connected to the Backend
+
+![Dashboard online](task-13-dashboard-online.png)
+
+### Horse Profile Summary
+
+![Horse profile summary](task-13-summary-result.png)
+
+### Health Check Result
+
+![Health check result](task-13-health-check-result.png)
+
+### Stable-Care Result
+
+![Stable-care result](task-13-stable-care-result.png)
+
+### HTTP Request and JSON Communication
+
+![Network request](task-13-network-request.png)
+
+### FastAPI Documentation
+
+![FastAPI documentation](task-13-fastapi-docs.png)
+
+### Automated Tests
+
+![Tests passed](task-13-tests-passed.png)
+
+### Lovable Design Process
+
+![Lovable dashboard](task-13-lovable-dashboard.png)
+
+![Lovable prompt](task-13-lovable-prompt.png)
 
 ---
 
@@ -375,3 +411,6 @@ Service Modules
 ```
 
 The frontend no longer directly imports Python business logic, and all real results are returned by the FastAPI backend.
+
+```
+```
