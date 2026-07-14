@@ -79,7 +79,7 @@ Tkinter GUI
 Direct Python imports
     ↓
 horsecare_manager.py
-````
+```
 
 The GUI directly imported Python functions. There were no HTTP requests, no API layer, and no JSON communication.
 
@@ -119,12 +119,12 @@ The FastAPI backend entry point is:
 
 The service modules are:
 
-| File                                                                          | Responsibility                           |
-| ----------------------------------------------------------------------------- | ---------------------------------------- |
-| [horse_service.py](../../backend/services/horse_service.py)                   | Horse age validation and profile summary |
-| [recommendation_service.py](../../backend/services/recommendation_service.py) | Feeding and training recommendations     |
-| [health_service.py](../../backend/services/health_service.py)                 | Temperature and appetite checks          |
-| [stable_service.py](../../backend/services/stable_service.py)                 | Stable-cleaning reminders                |
+| File | Responsibility |
+|---|---|
+| [horse_service.py](../../backend/services/horse_service.py) | Horse age validation and profile summary |
+| [recommendation_service.py](../../backend/services/recommendation_service.py) | Feeding and training recommendations |
+| [health_service.py](../../backend/services/health_service.py) | Temperature and appetite checks |
+| [stable_service.py](../../backend/services/stable_service.py) | Stable-cleaning reminders |
 
 The backend uses Pydantic models to validate incoming JSON requests.
 
@@ -193,21 +193,21 @@ Backend Offline
 
 The project includes:
 
-* Original HorseCare Manager tests
-* Service module tests
-* FastAPI endpoint tests
-* Valid input tests
-* Invalid input tests
-* Pydantic validation tests
-* Backend health endpoint test
+- Original HorseCare Manager tests
+- Service module tests
+- FastAPI endpoint tests
+- Valid input tests
+- Invalid input tests
+- Pydantic validation tests
+- Backend health endpoint test
 
 Important test files:
 
-| File                                                               | Purpose                |
-| ------------------------------------------------------------------ | ---------------------- |
-| [test_horsecare_manager.py](../../tests/test_horsecare_manager.py) | Original logic tests   |
-| [test_services.py](../../tests/test_services.py)                   | Service module tests   |
-| [test_api.py](../../tests/test_api.py)                             | FastAPI endpoint tests |
+| File | Purpose |
+|---|---|
+| [test_horsecare_manager.py](../../tests/test_horsecare_manager.py) | Original logic tests |
+| [test_services.py](../../tests/test_services.py) | Service module tests |
+| [test_api.py](../../tests/test_api.py) | FastAPI endpoint tests |
 
 Run all tests with:
 
@@ -255,22 +255,22 @@ Both terminals must remain open because the frontend and backend are separate ap
 
 The project was developed using:
 
-* Visual Studio Code
-* Python
-* FastAPI
-* Pydantic
-* React
-* TypeScript
-* Lovable
-* TanStack
-* Vite
-* HTTP and JSON
-* Pytest
-* FastAPI TestClient
-* Pylint
-* Radon
-* Makefile
-* GitHub Actions
+- Visual Studio Code
+- Python
+- FastAPI
+- Pydantic
+- React
+- TypeScript
+- Lovable
+- TanStack
+- Vite
+- HTTP and JSON
+- Pytest
+- FastAPI TestClient
+- Pylint
+- Radon
+- Makefile
+- GitHub Actions
 
 ---
 
@@ -299,20 +299,20 @@ The development process included:
 
 The final version improves the original project by adding:
 
-* Separate frontend and backend applications
-* HTTP communication
-* JSON requests and responses
-* FastAPI endpoints
-* Pydantic validation
-* Separate service modules
-* Modern Lovable web interface
-* Backend connection status
-* Loading and error handling
-* Service tests
-* API endpoint tests
-* Swagger documentation
-* Working sidebar navigation
-* Professional live demo interface
+- Separate frontend and backend applications
+- HTTP communication
+- JSON requests and responses
+- FastAPI endpoints
+- Pydantic validation
+- Separate service modules
+- Modern Lovable web interface
+- Backend connection status
+- Loading and error handling
+- Service tests
+- API endpoint tests
+- Swagger documentation
+- Working sidebar navigation
+- Professional live demo interface
 
 ---
 
@@ -322,15 +322,15 @@ HorseCare Manager Pro currently provides the core functions required for horse a
 
 The system can be extended with:
 
-* User authentication
-* Database storage
-* HTTPS
-* Professional veterinary validation
-* More detailed horse profiles
-* Historical health records
-* Feeding and training history
-* Logging and monitoring
-* Deployment configuration
+- User authentication
+- Database storage
+- HTTPS
+- Professional veterinary validation
+- More detailed horse profiles
+- Historical health records
+- Feeding and training history
+- Logging and monitoring
+- Deployment configuration
 
 ---
 
@@ -411,6 +411,3 @@ Service Modules
 ```
 
 The frontend no longer directly imports Python business logic, and all real results are returned by the FastAPI backend.
-
-```
-```
